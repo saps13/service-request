@@ -2,7 +2,7 @@
 This django app creates a service request and tracks the status of ticket.
 
 To run the app:
-Go to service-request/servicerequest/servicerequest/
+Go to service-request/servicerequest/
 Run python manage.py migrate
 Run python manage.py runserver
 
