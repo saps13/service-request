@@ -1,0 +1,9 @@
+<form action="" method="post">
+  {% csrf_token %}
+  {{ form }}
+  <input type="submit" value="Submit">
+  <br>
+  {% if post_output %}
+    <h1>Your Ticket No. Please save this!! {{ post_output }}</h1>
+  {% endif %}
+</form>
