@@ -1,7 +1,6 @@
 from django import forms
 from ticket.models import Ticket
 
-# iterable
 ServiceTypeChoices =(
     ("NI","New Installations"),
     ("SEC","Service Existing Connection"),
